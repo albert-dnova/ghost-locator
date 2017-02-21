@@ -89,4 +89,6 @@ public class MainActivity extends AppCompatActivity implements
         bottomNavigationView.setVisibility(View.GONE);
         setUpFragment(R.id.first_user_experience_fragment);
     }
+
+
 }
