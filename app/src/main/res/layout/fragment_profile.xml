@@ -4,6 +4,12 @@
     android:layout_height="match_parent"
     tools:context="com.lasalle.second.part.ghostlocator.view.fragment.SearchFragment">
 
+    <TextView
+        android:id="@+id/fragment_profile_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
     <com.facebook.login.widget.LoginButton
         android:id="@+id/fragment_profile_facebook_login_button"
         android:layout_width="wrap_content"
